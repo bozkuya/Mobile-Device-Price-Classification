@@ -1,0 +1,16 @@
+Fitting 3 folds for each of 144 candidates, totalling 432 fits
+En iyi parametreler:  {'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 200}
+[[ 85   9   6   0]
+ [  3  81   0   0]
+ [  8   0  95   5]
+ [  0   0   2 110]]
+              precision    recall  f1-score   support
+
+      Normal       0.89      0.85      0.87       100
+      Pahalı       0.90      0.96      0.93        84
+        Ucuz       0.92      0.88      0.90       108
+    Çok Ucuz       0.96      0.98      0.97       112
+
+    accuracy                           0.92       404
+   macro avg       0.92      0.92      0.92       404
+weighted avg       0.92      0.92      0.92       404
